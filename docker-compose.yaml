@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  cc-py-fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: "cc-py-fastapi"
+    ports:
+      - 8080:8080

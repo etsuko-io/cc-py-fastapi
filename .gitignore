@@ -1,0 +1,6 @@
+.python-version
+.idea
+*.pyc
+.DS_Store
+var
+.env
