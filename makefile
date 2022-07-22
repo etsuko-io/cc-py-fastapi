@@ -8,7 +8,7 @@ format:
 	flake8
 
 venv:
-	pyenv virtualenv 3.10.2 ${VENV} && pyenv local ${VENV} && make install
+	pyenv virtualenv 3.10.2 ${VENV} && make activate-venv && make install-local
 
 activate-venv:
 	pyenv local ${VENV}
