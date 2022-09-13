@@ -1,5 +1,5 @@
 [tool.black]
-line-length = 79
+line-length = 88
 target-version = ['py38']
 include-trailing-comma = true
 include = '\.pyi?$'
@@ -22,7 +22,7 @@ exclude = '''
 
 [tool.isort]
 py_version = '38'
-line_length = 79
+line_length = 88
 force_grid_wrap = 0
 combine_as_imports = true
 skip = []
